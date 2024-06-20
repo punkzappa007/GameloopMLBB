@@ -38,3 +38,7 @@ su -c 'rm -f /data/local/tmp/comlegendzzz.txt'
 
 echo "---Sipher Odyssey script----"
 su -c 'rm -f /data/data/com.atherlabs.sipherodyssey.arpg/shared_prefs/SipherSecuredStorage.xml'
+
+echo "---CODM script----"
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.msdk.token_cache.xml'
+
