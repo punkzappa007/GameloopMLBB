@@ -41,5 +41,14 @@ su -c 'rm -f /data/data/com.atherlabs.sipherodyssey.arpg/shared_prefs/SipherSecu
 
 echo "---CODM script----"
 su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.msdk.token_cache.xml'
+
 echo "---The Ragnarok script----"
 su -c 'rm -f /storage/emulated/0/Android/data/com.ggt.tr.google/files/hyglobalsdk/hyglobal_user.db'
+
+echo "---PlayStore script----"
+su -c 'rm -f /data/system_ce/0/accounts_ce.db'
+su -c 'rm -f /data/system_de/0/accounts_de.db'
+
+echo "---Black Desrt Mobile script----"
+su -c 'rm -f /data/data/com.pearlabyss.blackdesertm.gl/files/res/config/region_asia/userdata.xml'
+
