@@ -52,3 +52,7 @@ su -c 'rm -f /data/system_de/0/accounts_de.db'
 echo "---Black Desrt Mobile script----"
 su -c 'rm -f /data/data/com.pearlabyss.blackdesertm.gl/files/res/config/region_asia/userdata.xml'
 
+echo "---LDplayer9 playstore logout script----"
+am start -a android.settings.ADD_ACCOUNT_SETTINGS
+input keyevent 4
+
