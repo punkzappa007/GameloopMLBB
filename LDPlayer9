@@ -20,8 +20,6 @@ su -c 'rm -rf /data/system_de/0/accounts_de.db'
 su -c 'rm -rf /data/system_de/0/accounts_de.db-journal'
 su -c 'rm -rf /data/data/com.google.android.gms/databases/*'
 
-su -c 'cp -r /data/local/tmp/system_ce/*.* /data/system_ce/0/'
-su -c 'cp -r /data/local/tmp/system_de/*.* /data/system_de/0/'
 am start -a android.settings.ADD_ACCOUNT_SETTINGS
 input keyevent 4
 
