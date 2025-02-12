@@ -45,6 +45,9 @@ su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.msdk.token_
 echo "---The Ragnarok script----"
 su -c 'rm -f /storage/emulated/0/Android/data/com.ggt.tr.google/files/hyglobalsdk/hyglobal_user.db'
 
+echo "---Ragnarok M Classic script----"
+su -c 'rm -f /data/data/com.gravityus.romzeny.aos/shared_prefs/TDS_ACCOUNT_PREFERENCE.xml'
+
 echo "---PlayStore script----"
 su -c 'rm -f /data/system_ce/0/accounts_ce.db'
 su -c 'rm -f /data/system_de/0/accounts_de.db'
