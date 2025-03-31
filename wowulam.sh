@@ -41,6 +41,23 @@ su -c 'rm -f /data/data/com.atherlabs.sipherodyssey.arpg/shared_prefs/SipherSecu
 
 echo "---CODM script----"
 su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.msdk.token_cache.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.msdk.token_cache_crypto.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.AccessTokenManager.SharedPreferences.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.AuthenticationTokenManager.SharedPreferences.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.internal.MODEL_STORE.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.internal.preferences.APP_GATEKEEPERS.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.internal.preferences.APP_SETTINGS.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.loginManager.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.sdk.appEventPreferences.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.sdk.attributionTracking.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.facebook.sdk.USER_SETTINGS.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.android.msdk.PayCachePreference_crypto.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.android.msdk.redeem.cache_crypto.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.msdk.app_platform_bind_token_crypto.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.msdk.bind_token_crypto.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/shared_prefs/com.garena.msdk.token_cache_crypto.xml'
+su -c 'rm -f /data/data/com.garena.game.codm/app_webview/Default/Cookies'
+su -c 'rm -f /data/data/com.garena.game.codm/app_webview/Default/Cookies-Journal'
 
 echo "---The Ragnarok script----"
 su -c 'rm -f /storage/emulated/0/Android/data/com.ggt.tr.google/files/hyglobalsdk/hyglobal_user.db'
