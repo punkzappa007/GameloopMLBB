@@ -62,6 +62,9 @@ su -c 'rm -f /data/data/com.garena.game.codm/app_webview/Default/Cookies-Journal
 echo "---The Ragnarok script----"
 su -c 'rm -f /storage/emulated/0/Android/data/com.ggt.tr.google/files/hyglobalsdk/hyglobal_user.db'
 
+echo "---THe Dragon Nest rebirth of legend----"
+su -c 'rm -f /storage/emulated/0/Android/data/com.lulingame.dragonnest.gp/files/hyglobalsdk/hyglobal_user.db'
+
 echo "---Ragnarok M Classic script----"
 su -c 'rm -f /data/data/com.gravityus.romzeny.aos/shared_prefs/TDS_ACCOUNT_PREFERENCE.xml'
 
