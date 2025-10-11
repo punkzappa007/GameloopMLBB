@@ -74,6 +74,12 @@ su -c 'rm -f /data/system_de/0/accounts_de.db'
 
 echo "---Black Desrt Mobile script----"
 su -c 'rm -f /data/data/com.pearlabyss.blackdesertm.gl/files/res/config/region_asia/userdata.xml'
+echo "---HOK script----"
+su -c 'rm -f /data/data/com.levelinfinite.sgameGlobal.midaspay/files/INTL/intl_auth.txt'
+su -c 'rm -f /data/data/com.levelinfinite.sgameGlobal/files/INTL/intl_auth.txt'
+su -c 'rm -f /data/data/com.levelinfinite.sgameGlobal/files/INTL/ApasRemoteConfig'
+su -c 'rm -f /data/data/com.levelinfinite.sgameGlobal/files/INTL/IntlRemoteConfig'
+su -c 'rm -f /data/data/com.levelinfinite.sgameGlobal/files/INTL/IntlCustomConfig.tmp'
 
 echo "---LDplayer9 playstore logout script----"
 am start -a android.settings.ADD_ACCOUNT_SETTINGS
